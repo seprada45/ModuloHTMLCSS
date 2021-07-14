@@ -3,36 +3,41 @@
     margin: 0;
     padding: 0;
 }
+h3{
+    color: rgb(12, 13, 73);
+}
 .forms-section{
     display: flex;
     height: 800px;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     margin-top: 60px;
     align-items: center;
 
 }
 
-.container-form{
-    width: 350px;
+.Container-form{
+    width: 500px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    
 
 }
 .Title-form{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .circle{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color: green;
+    background: rgb(27, 242, 40);
+    background: linear-gradient(90deg, rgba(27, 242, 40) 0%, rgba(65,168,26,1) 35%, rgba(124, 222, 87)100%);
 }
 .rectangulo{
-    width: 70px;
-    height: 100px;
+    width: 100px;
+    height: 60px;
     border: 3px solid #555;
     background-color: blue;
     
@@ -40,17 +45,15 @@
 .triangulo{
     width: 0;
     height: 0;
-    border-left: 100px solid purple;
-    border-top: 50px solid transparent;
-    border-bottom: 50px solid transparent; 
+    border-left: 50px solid transparent;
+    border-bottom: 100px solid purple; 
+    border-right: 50px solid transparent;
+    
 }
 .rombo{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border: 3px solid #555;
     background-color: yellow;
-    -webkit-transform: rotate(45deg) skew(15deg, 15deg);
-    -moz-transform: rotate(45deg) skew(15deg, 15deg);
-    -o-transform: rotate(45deg) skew(15deg, 15deg);
-    transform: rotate(45deg) skew(15deg, 15deg);
+    transform: rotate(45deg) ;
 }
