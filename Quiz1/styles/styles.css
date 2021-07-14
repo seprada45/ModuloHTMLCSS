@@ -1,0 +1,54 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.forms-section{
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+
+}
+
+.container-form{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Title-form{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: green;
+}
+.rectangulo{
+    width: 70px;
+    height: 100px;
+    border: 3px solid #555;
+    background-color: blue;
+    
+}
+.triangulo{
+    width: 0;
+    height: 0;
+    border-left: 100px solid purple;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent; 
+}
+.rombo{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #555;
+    background-color: yellow;
+    -webkit-transform: rotate(45deg) skew(15deg, 15deg);
+    -moz-transform: rotate(45deg) skew(15deg, 15deg);
+    -o-transform: rotate(45deg) skew(15deg, 15deg);
+    transform: rotate(45deg) skew(15deg, 15deg);
+}
