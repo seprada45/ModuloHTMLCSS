@@ -50,6 +50,8 @@
   justify-content: center;
 }
 .btn-login-container button {
+  display: flex;
+  justify-content: space-between;
   padding: 0.7rem;
   background-color: #61cbcb;
   border: 0;
@@ -64,9 +66,8 @@
 }
 /*Estilos Formulario*/
 .screen-form {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- 
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
