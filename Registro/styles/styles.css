@@ -9,9 +9,8 @@
 }
 /*Imgaen de fondo*/
 .bg-planta {
-  background-image: url(../img/john-vicente-rVHhoDbvKb0-unsplash.jpg);
-  background-size: 120%;
-  background-repeat: no-repeat;
+  background-image: url(../img/paul-green-5lRxNLHfZOY-unsplash.jpg);
+  background-size: 100%;
   background-position-y: 40%;
 }
 /*Contenedor Formulario*/
@@ -20,9 +19,9 @@
 }
 
 .form-container {
-  height: 100%;
+  height: 70%;
   padding: 4rem;
-  width: 40%;
+  width: 30%;
   border-radius: 0.4rem;
   display: flex;
   justify-content: center;
@@ -30,7 +29,7 @@
 }
 /*Contenedor inputs*/
 .input-container {
-  margin-top: 0.5rem;
+  margin-top: 0.1rem;
   border-radius: 0.4rem;
   display: flex;
   flex-direction: column;
@@ -42,7 +41,7 @@
   margin-top: 0.2rem;
 }
 .checkbox-container {
-  margin-top: 0.5rem;
+  margin-top: 0.2rem;
 }
 /*Estilos del botón*/
 .btn-login-container {
@@ -51,8 +50,6 @@
   justify-content: center;
 }
 .btn-login-container button {
-  display: flex;
-  justify-content: space-between;
   padding: 0.7rem;
   background-color: #61cbcb;
   border: 0;
