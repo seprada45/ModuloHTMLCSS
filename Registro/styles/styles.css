@@ -35,9 +35,11 @@
   flex-direction: column;
 }
 .input-container input {
+  margin-right: 1rem;
+  margin-left: 1rem;
   border-radius: 0.4rem;
   border: solid 0.1rem gray;
-  padding: 0.4rem;
+  padding: 0.3rem;
   margin-top: 0.2rem;
 }
 .checkbox-container {
@@ -48,13 +50,18 @@
   margin-top: 2rem;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 .btn-login-container button {
+  display: flex;
+  justify-content: space-around;
   padding: 0.7rem;
   background-color: #61cbcb;
   border: 0;
   border-radius: 0.2rem;
   color: white;
+  margin-bottom: 0.4rem;
   transition: background-color 0.2s;
   transition: padding 0.5s;
 }
@@ -64,8 +71,10 @@
 }
 .input-container-sex {
   margin-top: 1rem;
+}
+.container-sex {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: start;
 }
 /*Estilos Formulario*/
 .screen-form {
